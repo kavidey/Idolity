@@ -14,6 +14,9 @@
 		644CB23A285C3F5B005CEE7B /* IdolityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB239285C3F5B005CEE7B /* IdolityTests.swift */; };
 		644CB244285C3F5B005CEE7B /* IdolityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB243285C3F5B005CEE7B /* IdolityUITests.swift */; };
 		644CB246285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB245285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift */; };
+		644CB253285C6A6C005CEE7B /* ApplicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB252285C6A6C005CEE7B /* ApplicationsView.swift */; };
+		644CB255285C6AC6005CEE7B /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB254285C6AC6005CEE7B /* Application.swift */; };
+		644CB259285C6BC3005CEE7B /* ModelApplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB258285C6BC3005CEE7B /* ModelApplications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		644CB23F285C3F5B005CEE7B /* IdolityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdolityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644CB243285C3F5B005CEE7B /* IdolityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolityUITests.swift; sourceTree = "<group>"; };
 		644CB245285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		644CB252285C6A6C005CEE7B /* ApplicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsView.swift; sourceTree = "<group>"; };
+		644CB254285C6AC6005CEE7B /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		644CB258285C6BC3005CEE7B /* ModelApplications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApplications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				644CB227285C3F58005CEE7B /* IdolityApp.swift */,
-				644CB229285C3F58005CEE7B /* ContentView.swift */,
+				644CB256285C6B69005CEE7B /* Views */,
+				644CB257285C6B79005CEE7B /* Model */,
 				644CB22B285C3F5A005CEE7B /* Assets.xcassets */,
 				644CB230285C3F5A005CEE7B /* Idolity.entitlements */,
 				644CB22D285C3F5A005CEE7B /* Preview Content */,
@@ -127,6 +134,24 @@
 				644CB245285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift */,
 			);
 			path = IdolityUITests;
+			sourceTree = "<group>";
+		};
+		644CB256285C6B69005CEE7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				644CB229285C3F58005CEE7B /* ContentView.swift */,
+				644CB252285C6A6C005CEE7B /* ApplicationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		644CB257285C6B79005CEE7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				644CB254285C6AC6005CEE7B /* Application.swift */,
+				644CB258285C6BC3005CEE7B /* ModelApplications.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644CB259285C6BC3005CEE7B /* ModelApplications.swift in Sources */,
+				644CB255285C6AC6005CEE7B /* Application.swift in Sources */,
 				644CB22A285C3F58005CEE7B /* ContentView.swift in Sources */,
 				644CB228285C3F58005CEE7B /* IdolityApp.swift in Sources */,
+				644CB253285C6A6C005CEE7B /* ApplicationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
