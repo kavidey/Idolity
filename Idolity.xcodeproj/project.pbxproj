@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644CB228285C3F58005CEE7B /* IdolityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB227285C3F58005CEE7B /* IdolityApp.swift */; };
+		644CB22A285C3F58005CEE7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB229285C3F58005CEE7B /* ContentView.swift */; };
+		644CB22C285C3F5A005CEE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644CB22B285C3F5A005CEE7B /* Assets.xcassets */; };
+		644CB22F285C3F5A005CEE7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644CB22E285C3F5A005CEE7B /* Preview Assets.xcassets */; };
+		644CB23A285C3F5B005CEE7B /* IdolityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB239285C3F5B005CEE7B /* IdolityTests.swift */; };
+		644CB244285C3F5B005CEE7B /* IdolityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB243285C3F5B005CEE7B /* IdolityUITests.swift */; };
+		644CB246285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB245285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644CB236285C3F5B005CEE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644CB21C285C3F58005CEE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644CB223285C3F58005CEE7B;
+			remoteInfo = Idolity;
+		};
+		644CB240285C3F5B005CEE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644CB21C285C3F58005CEE7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644CB223285C3F58005CEE7B;
+			remoteInfo = Idolity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644CB224285C3F58005CEE7B /* Idolity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idolity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644CB227285C3F58005CEE7B /* IdolityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolityApp.swift; sourceTree = "<group>"; };
+		644CB229285C3F58005CEE7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		644CB22B285C3F5A005CEE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644CB22E285C3F5A005CEE7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		644CB230285C3F5A005CEE7B /* Idolity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Idolity.entitlements; sourceTree = "<group>"; };
+		644CB235285C3F5B005CEE7B /* IdolityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdolityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644CB239285C3F5B005CEE7B /* IdolityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolityTests.swift; sourceTree = "<group>"; };
+		644CB23F285C3F5B005CEE7B /* IdolityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdolityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644CB243285C3F5B005CEE7B /* IdolityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolityUITests.swift; sourceTree = "<group>"; };
+		644CB245285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644CB221285C3F58005CEE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CB232285C3F5B005CEE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CB23C285C3F5B005CEE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644CB21B285C3F58005CEE7B = {
+			isa = PBXGroup;
+			children = (
+				644CB226285C3F58005CEE7B /* Idolity */,
+				644CB238285C3F5B005CEE7B /* IdolityTests */,
+				644CB242285C3F5B005CEE7B /* IdolityUITests */,
+				644CB225285C3F58005CEE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644CB225285C3F58005CEE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644CB224285C3F58005CEE7B /* Idolity.app */,
+				644CB235285C3F5B005CEE7B /* IdolityTests.xctest */,
+				644CB23F285C3F5B005CEE7B /* IdolityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644CB226285C3F58005CEE7B /* Idolity */ = {
+			isa = PBXGroup;
+			children = (
+				644CB227285C3F58005CEE7B /* IdolityApp.swift */,
+				644CB229285C3F58005CEE7B /* ContentView.swift */,
+				644CB22B285C3F5A005CEE7B /* Assets.xcassets */,
+				644CB230285C3F5A005CEE7B /* Idolity.entitlements */,
+				644CB22D285C3F5A005CEE7B /* Preview Content */,
+			);
+			path = Idolity;
+			sourceTree = "<group>";
+		};
+		644CB22D285C3F5A005CEE7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				644CB22E285C3F5A005CEE7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		644CB238285C3F5B005CEE7B /* IdolityTests */ = {
+			isa = PBXGroup;
+			children = (
+				644CB239285C3F5B005CEE7B /* IdolityTests.swift */,
+			);
+			path = IdolityTests;
+			sourceTree = "<group>";
+		};
+		644CB242285C3F5B005CEE7B /* IdolityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644CB243285C3F5B005CEE7B /* IdolityUITests.swift */,
+				644CB245285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift */,
+			);
+			path = IdolityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644CB223285C3F58005CEE7B /* Idolity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CB249285C3F5B005CEE7B /* Build configuration list for PBXNativeTarget "Idolity" */;
+			buildPhases = (
+				644CB220285C3F58005CEE7B /* Sources */,
+				644CB221285C3F58005CEE7B /* Frameworks */,
+				644CB222285C3F58005CEE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Idolity;
+			productName = Idolity;
+			productReference = 644CB224285C3F58005CEE7B /* Idolity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644CB234285C3F5B005CEE7B /* IdolityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CB24C285C3F5B005CEE7B /* Build configuration list for PBXNativeTarget "IdolityTests" */;
+			buildPhases = (
+				644CB231285C3F5B005CEE7B /* Sources */,
+				644CB232285C3F5B005CEE7B /* Frameworks */,
+				644CB233285C3F5B005CEE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644CB237285C3F5B005CEE7B /* PBXTargetDependency */,
+			);
+			name = IdolityTests;
+			productName = IdolityTests;
+			productReference = 644CB235285C3F5B005CEE7B /* IdolityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644CB23E285C3F5B005CEE7B /* IdolityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644CB24F285C3F5B005CEE7B /* Build configuration list for PBXNativeTarget "IdolityUITests" */;
+			buildPhases = (
+				644CB23B285C3F5B005CEE7B /* Sources */,
+				644CB23C285C3F5B005CEE7B /* Frameworks */,
+				644CB23D285C3F5B005CEE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644CB241285C3F5B005CEE7B /* PBXTargetDependency */,
+			);
+			name = IdolityUITests;
+			productName = IdolityUITests;
+			productReference = 644CB23F285C3F5B005CEE7B /* IdolityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644CB21C285C3F58005CEE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					644CB223285C3F58005CEE7B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					644CB234285C3F5B005CEE7B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 644CB223285C3F58005CEE7B;
+					};
+					644CB23E285C3F5B005CEE7B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 644CB223285C3F58005CEE7B;
+					};
+				};
+			};
+			buildConfigurationList = 644CB21F285C3F58005CEE7B /* Build configuration list for PBXProject "Idolity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644CB21B285C3F58005CEE7B;
+			productRefGroup = 644CB225285C3F58005CEE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644CB223285C3F58005CEE7B /* Idolity */,
+				644CB234285C3F5B005CEE7B /* IdolityTests */,
+				644CB23E285C3F5B005CEE7B /* IdolityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644CB222285C3F58005CEE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CB22F285C3F5A005CEE7B /* Preview Assets.xcassets in Resources */,
+				644CB22C285C3F5A005CEE7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CB233285C3F5B005CEE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CB23D285C3F5B005CEE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644CB220285C3F58005CEE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CB22A285C3F58005CEE7B /* ContentView.swift in Sources */,
+				644CB228285C3F58005CEE7B /* IdolityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CB231285C3F5B005CEE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CB23A285C3F5B005CEE7B /* IdolityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644CB23B285C3F5B005CEE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CB244285C3F5B005CEE7B /* IdolityUITests.swift in Sources */,
+				644CB246285C3F5B005CEE7B /* IdolityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644CB237285C3F5B005CEE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644CB223285C3F58005CEE7B /* Idolity */;
+			targetProxy = 644CB236285C3F5B005CEE7B /* PBXContainerItemProxy */;
+		};
+		644CB241285C3F5B005CEE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644CB223285C3F58005CEE7B /* Idolity */;
+			targetProxy = 644CB240285C3F5B005CEE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		644CB247285C3F5B005CEE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644CB248285C3F5B005CEE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		644CB24A285C3F5B005CEE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Idolity/Idolity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Idolity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavidey.Idolity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		644CB24B285C3F5B005CEE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Idolity/Idolity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Idolity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavidey.Idolity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		644CB24D285C3F5B005CEE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavidey.IdolityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idolity.app/Contents/MacOS/Idolity";
+			};
+			name = Debug;
+		};
+		644CB24E285C3F5B005CEE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavidey.IdolityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idolity.app/Contents/MacOS/Idolity";
+			};
+			name = Release;
+		};
+		644CB250285C3F5B005CEE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavidey.IdolityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Idolity;
+			};
+			name = Debug;
+		};
+		644CB251285C3F5B005CEE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavidey.IdolityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Idolity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644CB21F285C3F58005CEE7B /* Build configuration list for PBXProject "Idolity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CB247285C3F5B005CEE7B /* Debug */,
+				644CB248285C3F5B005CEE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644CB249285C3F5B005CEE7B /* Build configuration list for PBXNativeTarget "Idolity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CB24A285C3F5B005CEE7B /* Debug */,
+				644CB24B285C3F5B005CEE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644CB24C285C3F5B005CEE7B /* Build configuration list for PBXNativeTarget "IdolityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CB24D285C3F5B005CEE7B /* Debug */,
+				644CB24E285C3F5B005CEE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644CB24F285C3F5B005CEE7B /* Build configuration list for PBXNativeTarget "IdolityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644CB250285C3F5B005CEE7B /* Debug */,
+				644CB251285C3F5B005CEE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644CB21C285C3F58005CEE7B /* Project object */;
+}
