@@ -17,6 +17,7 @@
 		644CB253285C6A6C005CEE7B /* ApplicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB252285C6A6C005CEE7B /* ApplicationsView.swift */; };
 		644CB255285C6AC6005CEE7B /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB254285C6AC6005CEE7B /* Application.swift */; };
 		644CB259285C6BC3005CEE7B /* ModelApplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CB258285C6BC3005CEE7B /* ModelApplications.swift */; };
+		64FAE34D285FBFE90009961C /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FAE34C285FBFE90009961C /* Sidebar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		644CB252285C6A6C005CEE7B /* ApplicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsView.swift; sourceTree = "<group>"; };
 		644CB254285C6AC6005CEE7B /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		644CB258285C6BC3005CEE7B /* ModelApplications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelApplications.swift; sourceTree = "<group>"; };
+		64FAE34C285FBFE90009961C /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				644CB229285C3F58005CEE7B /* ContentView.swift */,
+				64FAE34C285FBFE90009961C /* Sidebar.swift */,
 				644CB252285C6A6C005CEE7B /* ApplicationsView.swift */,
 			);
 			path = Views;
@@ -288,6 +291,7 @@
 				644CB255285C6AC6005CEE7B /* Application.swift in Sources */,
 				644CB22A285C3F58005CEE7B /* ContentView.swift in Sources */,
 				644CB228285C3F58005CEE7B /* IdolityApp.swift in Sources */,
+				64FAE34D285FBFE90009961C /* Sidebar.swift in Sources */,
 				644CB253285C6A6C005CEE7B /* ApplicationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
